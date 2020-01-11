@@ -1,0 +1,16 @@
+# Server
+server:
+  address: 127.0.0.1
+  port: 8080
+# Log
+logging:
+  config: classpath:logback.xml
+# Spring
+spring:
+  application:
+    name: demo-webapi
+  main:
+    web-application-type: servlet
+
+params:
+  name: wangzhj
